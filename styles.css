@@ -1,5 +1,12 @@
-.montserrat-normal {
-  font-family: "Montserrat", sans-serif;
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -9,13 +16,21 @@
     color: #4E47FF;
 }
 
+/* background image */
+.header{
+    background-image: url('/Assignment-01/img/Hero-bg.png');
+    background-position: center;
+    background-size: contain;
+    height: 680px;
+}
+
 /* nav section */
 .nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 150px;
-    padding: 0 50px;
+    margin: 0px 150px;
+    padding: 50 0px;
 }
 .nav-heading{
     font-size: 34px;
@@ -26,6 +41,28 @@
     color: white;
     height: 48px;
     width: 132px;
+    padding: 0 22px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+
+/* banner section */
+.banner-container{
+    text-align: center;
+    margin: 150px 268px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+
+}
+.banner-button{
+    background-color: #4E47FF;
+    color: white;
+    height: 48px;
+    width: 174px;
     padding: 0 22px;
     font-size: 16px;
     font-weight: 600;
