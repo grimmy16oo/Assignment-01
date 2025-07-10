@@ -41,8 +41,8 @@
     color: white;
     height: 48px;
     width: 132px;
-    padding: 0 22px;
-    font-size: 16px;
+    padding: 12px 36px;
+    font-size: 15px;
     font-weight: 600;
     border: none;
     border-radius: 10px;
@@ -63,9 +63,48 @@
     color: white;
     height: 48px;
     width: 174px;
-    padding: 0 22px;
-    font-size: 16px;
+    padding: 12px 36px;
+    font-size: 15px;
     font-weight: 600;
     border: none;
     border-radius: 10px;
+}
+
+/* action-section */
+.action-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 141px;
+    
+}
+.action-description{
+    width: 517px;
+    margin: 62px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 0.5);
+}
+.action-button{
+    background-color: #4E47FF;
+    color: white;
+    height: 48px;
+    width: 230px;
+    padding: 12px 36px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+
+}
+.action-img{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
 }
