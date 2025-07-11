@@ -1,4 +1,3 @@
-
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -201,6 +200,7 @@
     gap: 10px;
 }
 .form-container label{
+    font-size: 18px;
     display: block;
     margin-bottom: 10px;
     font-weight: 600;
@@ -218,6 +218,8 @@
     border-radius: 10px;
 }
 form input,form textarea{
+    background-color: white;
+    font-family: sans-serif;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.316);
     font-size: 20px;
@@ -228,4 +230,33 @@ form input,form textarea{
     text-decoration: none;
 }
 
-
+/* logo */
+.footer-container{
+    display: block;
+    text-align: center;
+    margin: 104px 454px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(137, 135, 161, 1);
+}
+.logo-title{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 20px;
+}
+.logo-para{
+    color: rgba(137, 135, 161, 1);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
