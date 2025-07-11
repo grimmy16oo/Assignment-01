@@ -29,7 +29,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 150px;
+    margin: 0 150px 150px 150px;
     padding: 50 0px;
 }
 .nav-heading{
@@ -51,7 +51,7 @@
 /* banner section */
 .banner-container{
     text-align: center;
-    margin: 150px 268px;
+    margin: 0 150px 150px 150px;
 }
 .banner-title{
     font-size: 65px;
@@ -113,7 +113,7 @@
 .all{
     display: block;
     background-color: rgba(78, 71, 255, 0.1);
-    margin: 160px;
+    margin: 0 150px 150px 150px;
     padding: 50px 142px;
     border-radius: 24px;
     text-align: center;
@@ -143,3 +143,88 @@
     margin-top: 0;
     margin-bottom: 20px;
 }
+
+/* feedback section */
+.feedback{
+    margin: 0 150px 150px 150px;
+}
+.feedback-heading{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.feedback-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.feedback-box{
+    border: 1px solid rgba(0, 0, 0, 0.268);
+    border-radius: 14px;
+    padding: 24px;
+}
+.pfp{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-size: contain;
+}
+.feedback-div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.Reviewer-name{
+    margin: 0px;
+    color: rgba(0, 0, 0, 0.526);
+}
+.date{
+    margin: 2px;
+    color: rgba(0, 0, 0, 0.438);
+}
+
+/* form section */
+.form-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px 150px 150px;
+    padding: auto;
+}
+.text-heading{
+    font-size: 97px;
+    font-weight: bold;
+    margin-right: 200px;
+}
+.form-container{
+    gap: 10px;
+}
+.form-container label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.form-button{
+    display: block;
+    background-color: #4E47FF;
+    color: white;
+    height: 62px;
+    width: 470px;
+    padding: 12px 36px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+form input,form textarea{
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.316);
+    font-size: 20px;
+    padding: 20px 32px;
+    margin-bottom: 20px;
+    width: 400px;
+    color: white;
+    text-decoration: none;
+}
+
