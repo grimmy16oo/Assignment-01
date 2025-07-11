@@ -10,11 +10,6 @@
   font-style: normal;
 }
 
-/* shared style */
-.primary-color{
-    color: #4E47FF;
-}
-
 /* background image */
 .header{
     background-image: url('/Assignment-01/img/Hero-bg.png');
@@ -29,11 +24,11 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 150px 150px 150px;
-    padding: 50 0px;
 }
 .nav-heading{
+    color: #4E47FF;
     font-size: 34px;
-    font-weight: 800;
+    font-weight: 900;
 }
 .nav-button{
     background-color: #4E47FF;
@@ -42,7 +37,7 @@
     width: 135px;
     padding: 12px 36px;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: bold;
     border: none;
     border-radius: 10px;
 }
@@ -84,11 +79,10 @@
     justify-content: space-between;
     align-items: center;
     margin: 141px;
-    
 }
 .action-description{
     width: 517px;
-    margin: 62px;
+    margin: 62px 0;
 }
 .action-title{
     font-size: 42px;
@@ -106,7 +100,7 @@
     width: 235px;
     padding: 12px 36px;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: bold;
     border: none;
     border-radius: 10px;
 }
@@ -130,6 +124,7 @@
     text-align: center;
 }
 .user{
+    margin: 10px 142px;
 }
 .user-heading{
     font-size: 38px;
@@ -138,8 +133,8 @@
 .user-container{
     display: flex;
     justify-content: center;
+    gap: 158px;
     align-items: center;
-    gap: 0px 158px;
 }
 .user-title{
     font-size: 80px;
@@ -152,7 +147,6 @@
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 0;
-    margin-bottom: 20px;
 }
 
 /* feedback section */
@@ -172,7 +166,7 @@
     gap: 20px;
 }
 .feedback-box{
-    border: 1px solid rgba(0, 0, 0, 0.268);
+    border: 2px solid rgba(242, 237, 237, 1);
     border-radius: 14px;
     padding: 24px;
 }
@@ -201,7 +195,6 @@
     display: flex;
     justify-content: space-between;
     margin: 0 150px 150px 150px;
-    padding: auto;
 }
 .text-heading{
     font-size: 97px;
@@ -209,7 +202,7 @@
     margin-right: 200px;
 }
 .form-container{
-    gap: 10px;
+    gap: 20px;
 }
 .form-container label{
     font-size: 18px;
@@ -242,7 +235,7 @@ form input,form textarea{
     padding: 20px 32px;
     margin-bottom: 20px;
     width: 400px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -262,12 +255,12 @@ ul li{
 }
 ul li a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     color: rgba(137, 135, 161, 1);
 }
 ul li a:hover{
     color: #4E47FF;
-    font-size: 19px;
+    font-size: 18px;
 }
 .logo-title{
     font-size: 100px;
@@ -277,6 +270,6 @@ ul li a:hover{
 }
 .logo-para{
     color: rgba(137, 135, 161, 1);
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 20px;
 }
